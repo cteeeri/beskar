@@ -61,6 +61,9 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+__pycache__/
+migrations/
+
 # Flask stuff:
 instance/
 .webassets-cache
@@ -166,3 +169,5 @@ lerna-debug.log
 manage.py
 
 .DS_Store
+
+tmp.txt

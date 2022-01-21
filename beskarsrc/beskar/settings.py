@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'recipe',
 ]
 
 MIDDLEWARE = [
@@ -89,8 +90,7 @@ WSGI_APPLICATION = 'beskar.wsgi.application'
 # }
 
 DATABASES = {
-    'default': 
-        env.db_url('DATABASE_URL')
+    'default': env.db_url('DATABASE_URL')
 }
 
 # Password validation
