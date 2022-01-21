@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block ingredients %}
+    {% for ingre in ingredient_list %}
+
+        <li> {{ ingre.freshnesslevel}} {{ ingre.name }}</li>
+
+    {% endfor %}
+
+{% endblock %}
