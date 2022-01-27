@@ -114,6 +114,7 @@ env.bak/
 venv.bak/
 
 bvenv
+staticfiles/
 
 # Spyder project settings
 .spyderproject
